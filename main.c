@@ -4,7 +4,6 @@
 int main() {
    // printf() displays the string inside quotation
    printf("Hello, World!");
-   uart_init();
-   printf("init called!");
+   printf("init called! %d", uart_init());
    return 0;
 }
