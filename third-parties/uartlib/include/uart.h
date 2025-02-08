@@ -3,6 +3,6 @@
 
 #define MY_INLINE inline __attribute__((always_inline))
 
-void uart_init();
+MY_INLINE void uart_init();
 
 #endif /* UART_H */

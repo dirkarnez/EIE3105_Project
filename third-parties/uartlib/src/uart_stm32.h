@@ -3,6 +3,6 @@
 
 #include "uart.h"
 
-void uart_init_stm32();
+MY_INLINE void uart_init_stm32();
 
 #endif /* UART_STM32_H */

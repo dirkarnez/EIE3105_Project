@@ -7,7 +7,7 @@
     #include "uart_stm32.h"
 #endif
 
-void uart_init() {
+MY_INLINE void uart_init() {
     #if defined(__AVR_ATmega328P__)
         uart_init_avr();
     #elif defined(STM32)
