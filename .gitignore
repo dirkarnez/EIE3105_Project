@@ -3,3 +3,4 @@ tbuild-build
 tbuild-installation
 *.a
 *.exe
+*.o
