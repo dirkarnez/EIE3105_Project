@@ -3,10 +3,6 @@
 
 #define MY_INLINE inline __attribute__((always_inline))
 
-#if defined(__AVR_ATmega328P__)
-    #include "uart_avr.h"
-#elif defined(STM32)
-    #include "uart_stm32.h"
-#endif
+void uart_init();
 
 #endif /* UART_H */

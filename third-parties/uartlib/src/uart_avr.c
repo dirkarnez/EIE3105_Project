@@ -1,7 +1,7 @@
-#include "uart.h"
+#include "uart_avr.h"
 
 #include <stdio.h>
 
-MY_INLINE void uart_init() {
+void uart_init_avr() {
     printf("hello from uart_avr\n");
 }
